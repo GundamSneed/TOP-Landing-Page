@@ -13,8 +13,42 @@ body {
     padding: 0 48px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 .header-logo {
-    font-size: 48px;
+    font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}
+
+.main-man {
+    width: 400px;
+}
+
+.welcome-card {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 48px;
 }
