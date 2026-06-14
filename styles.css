@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+/* Header Style Definition */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2947;
+    font-family: Roboto, sans-serif;
+    padding: 0 48px;
+}
+
+.header-logo {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
