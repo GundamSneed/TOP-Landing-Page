@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    /* margin: 0; */
+    font-family: Roboto, sans-serif;
 }
 
 /* Header Style Definition */
@@ -10,6 +11,7 @@ body {
     align-items: center;
     flex-grow: 0;
     gap: 550px;
+    margin: 20px auto;
 }
 
 ul {
@@ -47,11 +49,11 @@ ul {
 
 .welcome-card {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 50px;
-    flex-grow: 0;
-    gap: 50px;
+    margin: 50px auto;
+    /* flex-grow: 0; */
+    gap: 100px;
     
 }
 
@@ -60,7 +62,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-content: center;
-    font-family: Roboto, sans-serif;
+    
 }
 
 .signup {
@@ -73,12 +75,14 @@ ul {
 .welcome-title {
     color: #e5e7eb;
     font-size: 48px;
-    margin: 0;
+    max-width: 500px;
 }
 
 .welcome-message {
     color: #e5e7eb;
     font-size: 18px;
+    max-width: 500px;
+
     
 }
 
@@ -93,6 +97,7 @@ ul {
     flex-grow: 0;
     gap: 70px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .panel2 {
@@ -123,8 +128,59 @@ ul {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    max-width: 1000px;
+}
+
+.quotee {
+    color: #1f2937;
+    font-weight: 600;
+    text-align: right;
 }
 
 .greyback {
     background-color: #e5e7eb ;
 }
+
+.signupbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 150px auto
+}
+
+.signuptxt {
+    color: #e5e7eb;
+}
+
+.signuphead {
+    font-size: 24px;
+
+}
+
+.signupmsg {
+    font-size: 12px;
+}
+
+.signbutt {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-width: 5px;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    color: #e5e7eb;
+}
+
+/* .endp {
+    display: flex;
+    justify-self: center;
+    padding: 150px;
+} */
